@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T22:04:07+00:00",
+  "generated": "2026-08-14T22:48:35+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -9384,7 +9384,7 @@
       "url": "https://aws.amazon.com/rds/aurora/"
     },
     {
-      "category": "Database",
+      "category": "Databases",
       "category_source": "matched",
       "launch_date": "2024-12-01",
       "name": "Amazon Aurora DSQL",
@@ -10736,7 +10736,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2016-04-19",
       "name": "AWS Application Discovery Service",
@@ -10744,7 +10744,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2019-06-11",
       "name": "AWS Application Migration Service (MGN)",
@@ -11072,7 +11072,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": null,
       "name": "AWS Database Migration Service",
@@ -11080,7 +11080,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2018-11-25",
       "name": "AWS DataSync",
@@ -11536,7 +11536,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2021-11-30",
       "name": "AWS Mainframe Modernization",
@@ -11600,7 +11600,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2017-08-14",
       "name": "AWS Migration Hub",
@@ -11608,7 +11608,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": null,
       "name": "AWS Migration Hub Refactor Spaces",
@@ -12008,7 +12008,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": "2018-11-25",
       "name": "AWS Transfer Family",
@@ -12272,7 +12272,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": null,
       "name": "Migration Hub Orchestrator",
@@ -12280,7 +12280,7 @@
       "url": null
     },
     {
-      "category": "Migration",
+      "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": null,
       "name": "Migration Hub Strategy Recommendations",
