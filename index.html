@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AWS Service Matrix</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="titlebar">
+    <a class="brand" href="https://www.awyspr.com" rel="noopener" aria-label="awyspr">
+      <img src="https://awyspr.com/assets/images/image07.svg?v=b4a015c2" alt="awyspr">
+    </a>
+    <div class="titlebar-text">
+      <h1>AWS Service Matrix</h1>
+      <div class="meta" id="meta"></div>
+    </div>
+  </div>
+  <div class="intro">
+    <p>
+      Which AWS services are live in which regions?
+    </p>
+    <p>
+      Our unofficial AWS Service Matrix builds a view from AWS' own public
+      inventories and data feeds to show what is available where.
+    </p>
+    <details class="faq" open>
+      <summary>How it works</summary>
+      <ul>
+        <li><strong>Green cell with dark green tick (✓)</strong> = service available in that region. <strong>White cell with grey dot (·)</strong> = service not available in that region.</li>
+        <li><strong>Opt-in regions</strong> are marked in the header row with <span class="optin-swatch">red text</span> (default commercial regions are shown in black). Opt-in regions are not enabled in AWS accounts by default.</li>
+        <li><strong>Search</strong> by keyword, service name or use multiple comma-separated terms across services and regions; combine with the filters to narrow the view.</li>
+        <li><strong>Change badges</strong> <span class="rollup-swatch">+N/-N</span> in the header row show how many services were added / removed for that region since the previous snapshot. Added service cells get a highlighted green border and the dark green tick; removed service cells get a highlighted red border and an X marker.</li>
+      </ul>
+    </details>
+    <details class="faq" open>
+      <summary>Data sources</summary>
+      <ul>
+        <li>
+          <a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store-public-parameters-global-infrastructure.html" rel="noopener">AWS Systems Manager global-infrastructure parameters</a>
+          — service × region matrix, region metadata.
+        </li>
+        <li>
+          <a href="https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/" rel="noopener">AWS Regional Product Services</a>
+          — cross-check + service doc URLs.
+        </li>
+        <li>
+          <a href="https://aws.amazon.com/products/" rel="noopener">AWS Products directory</a>
+          — categories, launch dates.
+        </li>
+        <li>
+          Data is fetched daily on a best-effort basis from public AWS
+          endpoints and may lead or lag official announcements.
+        </li>
+      </ul>
+    </details>
+    <details class="faq" open>
+      <summary>What this tool is <em>not</em></summary>
+      <ol>
+        <li>
+          This is about <strong>service availability</strong> (is service X in region Y?), not
+          <strong>service health or status</strong> (is service X working right now?). For live
+          health and incident information, see
+          <a href="https://health.aws.amazon.com/health/status" rel="noopener">health.aws.amazon.com/health/status</a>.
+        </li>
+        <li>
+          This is about <strong>service availability</strong> (is service X in region Y?), not
+          <strong>region-suitability</strong> for a workload (should I put my X in region Y?)
+          and not about <strong>pricing</strong> (how much does it cost?). Consult AWS
+          documentation and pricing pages for those questions.
+        </li>
+        <li>
+          This tool only covers the AWS <strong>commercial partition</strong>. It does not
+          analyse isolated regions, GovCloud regions, European sovereign cloud
+          regions, or China regions.
+        </li>
+      </ol>
+    </details>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="controls-row">
+    <label><input type="radio" name="region-filter" value="all" checked> All regions</label>
+    <label><input type="radio" name="region-filter" value="default"> Default only</label>
+    <label><input type="radio" name="region-filter" value="optin"> Opt-in only</label>
+  </div>
+  <div class="controls-row">
+    <select id="geo">
+      <option value="">All geos</option>
+    </select>
+  </div>
+  <div class="controls-row">
+    <select id="category">
+      <option value="">All categories</option>
+    </select>
+  </div>
+  <div class="controls-row">
+    <input id="q" type="search" placeholder="Search — service, category, region code, or comma-separated compares (e.g. bedrock, macie, ap-southeast-2, ca-west-1)">
+  </div>
+</section>
+
+<main>
+  <div id="matrix-wrap"><table id="matrix"></table></div>
+</main>
+
+<footer>
+  <p>
+    Not affiliated with or endorsed by Amazon Web Services. All service and
+    region names are trademarks of their respective owners.
+  </p>
+  <p class="attribution">
+    Data collection and analysis scripts and presentation &copy; 2026 awyspr.
+    Visit <a href="https://www.awyspr.com" rel="noopener">www.awyspr.com</a>
+    or email
+    <a href="mailto:partnerboost@awyspr.com">partnerboost@awyspr.com</a>
+    for more information.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
