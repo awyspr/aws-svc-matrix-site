@@ -1,13 +1,277 @@
 {
   "added_regions": [],
-  "added_services": [],
-  "cell_added": [],
+  "added_services": [
+    "securityagent"
+  ],
+  "cell_added": [
+    {
+      "region": "us-east-1",
+      "service": "securityagent"
+    },
+    {
+      "region": "us-west-2",
+      "service": "securityagent"
+    },
+    {
+      "region": "af-south-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-east-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-east-2",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-northeast-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-northeast-2",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-northeast-3",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-south-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-south-2",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-2",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-3",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-4",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-5",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-6",
+      "service": "uxc"
+    },
+    {
+      "region": "ap-southeast-7",
+      "service": "uxc"
+    },
+    {
+      "region": "ca-central-1",
+      "service": "uxc"
+    },
+    {
+      "region": "ca-west-1",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-central-1",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-central-2",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-north-1",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-south-1",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-south-2",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-west-1",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-west-2",
+      "service": "uxc"
+    },
+    {
+      "region": "eu-west-3",
+      "service": "uxc"
+    },
+    {
+      "region": "il-central-1",
+      "service": "uxc"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "uxc"
+    },
+    {
+      "region": "sa-east-1",
+      "service": "uxc"
+    },
+    {
+      "region": "us-east-2",
+      "service": "uxc"
+    },
+    {
+      "region": "us-west-1",
+      "service": "uxc"
+    },
+    {
+      "region": "us-west-2",
+      "service": "uxc"
+    }
+  ],
   "cell_removed": [],
-  "new_generated": "2026-08-18T07:06:19+00:00",
-  "new_snapshot": "2026-08-18.json",
-  "old_generated": "2026-08-17T07:18:04+00:00",
-  "prior_snapshot": "2026-08-17.json",
-  "region_rollup": {},
+  "new_generated": "2026-08-19T07:07:32+00:00",
+  "new_snapshot": "2026-08-19.json",
+  "old_generated": "2026-08-18T07:06:19+00:00",
+  "prior_snapshot": "2026-08-18.json",
+  "region_rollup": {
+    "af-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-east-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-east-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-4": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-5": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-7": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-west-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-central-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-north-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "il-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "sa-east-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-east-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-east-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-west-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-west-2": {
+      "added": 2,
+      "removed": 0
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
