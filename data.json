@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T07:30:24+00:00",
+  "generated": "2026-08-25T07:10:11+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -8436,8 +8436,10 @@
     "timestream": [
       "ap-northeast-1",
       "ap-south-1",
+      "ap-southeast-1",
       "ap-southeast-2",
       "eu-central-1",
+      "eu-north-1",
       "eu-west-1",
       "us-east-1",
       "us-east-2",
