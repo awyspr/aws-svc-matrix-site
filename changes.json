@@ -1,27 +1,21 @@
 {
   "added_regions": [],
-  "added_services": [],
+  "added_services": [
+    "account-access"
+  ],
   "cell_added": [
     {
       "region": "ap-southeast-1",
-      "service": "timestream"
-    },
-    {
-      "region": "eu-north-1",
-      "service": "timestream"
+      "service": "account-access"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-08-25T07:10:11+00:00",
-  "new_snapshot": "2026-08-25.json",
-  "old_generated": "2026-08-24T07:30:24+00:00",
-  "prior_snapshot": "2026-08-24.json",
+  "new_generated": "2026-08-26T07:10:35+00:00",
+  "new_snapshot": "2026-08-26.json",
+  "old_generated": "2026-08-25T07:10:11+00:00",
+  "prior_snapshot": "2026-08-25.json",
   "region_rollup": {
     "ap-southeast-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-north-1": {
       "added": 1,
       "removed": 0
     }
