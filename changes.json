@@ -1,21 +1,43 @@
 {
   "added_regions": [],
-  "added_services": [
-    "account-access"
-  ],
+  "added_services": [],
   "cell_added": [
     {
       "region": "ap-southeast-1",
-      "service": "account-access"
+      "service": "workspaces-instances"
+    },
+    {
+      "region": "ap-southeast-6",
+      "service": "shield"
+    },
+    {
+      "region": "ap-south-2",
+      "service": "bedrock-agentcore"
+    },
+    {
+      "region": "us-west-1",
+      "service": "bedrock-agentcore"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-08-26T07:10:35+00:00",
-  "new_snapshot": "2026-08-26.json",
-  "old_generated": "2026-08-25T07:10:11+00:00",
-  "prior_snapshot": "2026-08-25.json",
+  "new_generated": "2026-08-27T17:39:55+00:00",
+  "new_snapshot": "2026-08-27.json",
+  "old_generated": "2026-08-26T07:10:35+00:00",
+  "prior_snapshot": "2026-08-26.json",
   "region_rollup": {
+    "ap-south-2": {
+      "added": 1,
+      "removed": 0
+    },
     "ap-southeast-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-6": {
+      "added": 1,
+      "removed": 0
+    },
+    "us-west-1": {
       "added": 1,
       "removed": 0
     }
