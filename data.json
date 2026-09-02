@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T11:41:52+00:00",
+  "generated": "2026-09-02T11:21:23+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -165,14 +165,20 @@
       "us-west-2"
     ],
     "aiops": [
+      "ap-east-1",
       "ap-northeast-1",
       "ap-south-1",
       "ap-southeast-1",
       "ap-southeast-2",
       "ap-southeast-5",
       "ap-southeast-7",
+      "eu-central-1",
       "eu-north-1",
-      "eu-south-2"
+      "eu-south-2",
+      "eu-west-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
     ],
     "aiq": [
       "af-south-1",
@@ -11894,6 +11900,14 @@
       "url": "https://aws.amazon.com/secrets-manager/"
     },
     {
+      "category": "Unknown",
+      "category_source": null,
+      "launch_date": null,
+      "name": "AWS Security Agent",
+      "slug": "securityagent",
+      "url": null
+    },
+    {
       "category": "Security, Identity, & Compliance",
       "category_source": "matched",
       "launch_date": "2019-06-24",
@@ -12515,14 +12529,6 @@
       "launch_date": null,
       "name": "Scheduler",
       "slug": "scheduler",
-      "url": null
-    },
-    {
-      "category": "Unknown",
-      "category_source": null,
-      "launch_date": null,
-      "name": "securityagent",
-      "slug": "securityagent",
       "url": null
     },
     {
