@@ -1,63 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "ap-east-1",
-      "service": "aiops"
-    },
-    {
-      "region": "eu-central-1",
-      "service": "aiops"
-    },
-    {
-      "region": "eu-west-1",
-      "service": "aiops"
-    },
-    {
-      "region": "us-east-1",
-      "service": "aiops"
-    },
-    {
-      "region": "us-east-2",
-      "service": "aiops"
-    },
-    {
-      "region": "us-west-2",
-      "service": "aiops"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-09-02T11:21:23+00:00",
-  "new_snapshot": "2026-09-02.json",
-  "old_generated": "2026-09-01T11:41:52+00:00",
-  "prior_snapshot": "2026-09-01.json",
-  "region_rollup": {
-    "ap-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-central-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-west-2": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-09-03T11:17:11+00:00",
+  "new_snapshot": "2026-09-03.json",
+  "old_generated": "2026-09-02T11:21:23+00:00",
+  "prior_snapshot": "2026-09-02.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
