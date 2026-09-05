@@ -3,17 +3,17 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "us-west-1",
-      "service": "account-access"
+      "region": "ap-southeast-6",
+      "service": "pcs"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-09-04T11:20:47+00:00",
-  "new_snapshot": "2026-09-04.json",
-  "old_generated": "2026-09-03T11:17:11+00:00",
-  "prior_snapshot": "2026-09-03.json",
+  "new_generated": "2026-09-05T10:38:16+00:00",
+  "new_snapshot": "2026-09-05.json",
+  "old_generated": "2026-09-04T11:20:47+00:00",
+  "prior_snapshot": "2026-09-04.json",
   "region_rollup": {
-    "us-west-1": {
+    "ap-southeast-6": {
       "added": 1,
       "removed": 0
     }
