@@ -1,23 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "ap-southeast-6",
-      "service": "pcs"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-09-05T10:38:16+00:00",
-  "new_snapshot": "2026-09-05.json",
-  "old_generated": "2026-09-04T11:20:47+00:00",
-  "prior_snapshot": "2026-09-04.json",
-  "region_rollup": {
-    "ap-southeast-6": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-09-06T11:00:03+00:00",
+  "new_snapshot": "2026-09-06.json",
+  "old_generated": "2026-09-05T10:38:16+00:00",
+  "prior_snapshot": "2026-09-05.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
