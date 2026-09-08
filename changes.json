@@ -1,23 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "ap-south-2",
-      "service": "dax"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-09-07T12:36:14+00:00",
-  "new_snapshot": "2026-09-07.json",
-  "old_generated": "2026-09-06T11:00:03+00:00",
-  "prior_snapshot": "2026-09-06.json",
-  "region_rollup": {
-    "ap-south-2": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-09-08T11:21:59+00:00",
+  "new_snapshot": "2026-09-08.json",
+  "old_generated": "2026-09-07T12:36:14+00:00",
+  "prior_snapshot": "2026-09-07.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
