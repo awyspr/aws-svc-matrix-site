@@ -1,13 +1,47 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [],
+  "cell_added": [
+    {
+      "region": "ap-east-2",
+      "service": "evs"
+    },
+    {
+      "region": "ap-northeast-3",
+      "service": "evs"
+    },
+    {
+      "region": "eu-south-2",
+      "service": "evs"
+    },
+    {
+      "region": "il-central-1",
+      "service": "evs"
+    }
+  ],
   "cell_removed": [],
-  "new_generated": "2026-09-08T11:21:59+00:00",
-  "new_snapshot": "2026-09-08.json",
-  "old_generated": "2026-09-07T12:36:14+00:00",
-  "prior_snapshot": "2026-09-07.json",
-  "region_rollup": {},
+  "new_generated": "2026-09-09T04:08:49+00:00",
+  "new_snapshot": "2026-09-09.json",
+  "old_generated": "2026-09-08T11:21:59+00:00",
+  "prior_snapshot": "2026-09-08.json",
+  "region_rollup": {
+    "ap-east-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "il-central-1": {
+      "added": 1,
+      "removed": 0
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
