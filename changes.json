@@ -3,29 +3,45 @@
   "added_services": [],
   "cell_added": [
     {
-      "region": "ap-east-2",
-      "service": "evs"
+      "region": "af-south-1",
+      "service": "dax"
+    },
+    {
+      "region": "ap-east-1",
+      "service": "dax"
+    },
+    {
+      "region": "ap-northeast-2",
+      "service": "dax"
     },
     {
       "region": "ap-northeast-3",
-      "service": "evs"
+      "service": "dax"
     },
     {
-      "region": "eu-south-2",
-      "service": "evs"
+      "region": "ca-central-1",
+      "service": "dax"
     },
     {
-      "region": "il-central-1",
-      "service": "evs"
+      "region": "eu-south-1",
+      "service": "dax"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-09-09T11:26:24+00:00",
-  "new_snapshot": "2026-09-09.json",
-  "old_generated": "2026-09-08T11:21:59+00:00",
-  "prior_snapshot": "2026-09-08.json",
+  "new_generated": "2026-09-10T11:22:43+00:00",
+  "new_snapshot": "2026-09-10.json",
+  "old_generated": "2026-09-09T11:26:24+00:00",
+  "prior_snapshot": "2026-09-09.json",
   "region_rollup": {
-    "ap-east-2": {
+    "af-south-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-east-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-northeast-2": {
       "added": 1,
       "removed": 0
     },
@@ -33,11 +49,11 @@
       "added": 1,
       "removed": 0
     },
-    "eu-south-2": {
+    "ca-central-1": {
       "added": 1,
       "removed": 0
     },
-    "il-central-1": {
+    "eu-south-1": {
       "added": 1,
       "removed": 0
     }
