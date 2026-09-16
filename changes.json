@@ -2,12 +2,46 @@
   "added_regions": [],
   "added_services": [],
   "cell_added": [],
-  "cell_removed": [],
-  "new_generated": "2026-09-15T11:46:44+00:00",
-  "new_snapshot": "2026-09-15.json",
-  "old_generated": "2026-09-14T12:50:53+00:00",
-  "prior_snapshot": "2026-09-14.json",
-  "region_rollup": {},
+  "cell_removed": [
+    {
+      "region": "ap-south-2",
+      "service": "b2bi"
+    },
+    {
+      "region": "ap-southeast-2",
+      "service": "b2bi"
+    },
+    {
+      "region": "eu-central-1",
+      "service": "b2bi"
+    },
+    {
+      "region": "eu-west-3",
+      "service": "b2bi"
+    }
+  ],
+  "new_generated": "2026-09-16T11:37:35+00:00",
+  "new_snapshot": "2026-09-16.json",
+  "old_generated": "2026-09-15T11:46:44+00:00",
+  "prior_snapshot": "2026-09-15.json",
+  "region_rollup": {
+    "ap-south-2": {
+      "added": 0,
+      "removed": 1
+    },
+    "ap-southeast-2": {
+      "added": 0,
+      "removed": 1
+    },
+    "eu-central-1": {
+      "added": 0,
+      "removed": 1
+    },
+    "eu-west-3": {
+      "added": 0,
+      "removed": 1
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
