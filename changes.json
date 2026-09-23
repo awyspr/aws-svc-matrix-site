@@ -1,13 +1,55 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [],
+  "cell_added": [
+    {
+      "region": "ap-south-2",
+      "service": "gamelift"
+    },
+    {
+      "region": "ap-southeast-3",
+      "service": "gamelift"
+    },
+    {
+      "region": "eu-south-2",
+      "service": "gamelift"
+    },
+    {
+      "region": "il-central-1",
+      "service": "gamelift"
+    },
+    {
+      "region": "mx-central-1",
+      "service": "gamelift"
+    }
+  ],
   "cell_removed": [],
-  "new_generated": "2026-09-22T11:41:44+00:00",
-  "new_snapshot": "2026-09-22.json",
-  "old_generated": "2026-09-21T12:51:45+00:00",
-  "prior_snapshot": "2026-09-21.json",
-  "region_rollup": {},
+  "new_generated": "2026-09-23T11:40:14+00:00",
+  "new_snapshot": "2026-09-23.json",
+  "old_generated": "2026-09-22T11:41:44+00:00",
+  "prior_snapshot": "2026-09-22.json",
+  "region_rollup": {
+    "ap-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-3": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-south-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "il-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "mx-central-1": {
+      "added": 1,
+      "removed": 0
+    }
+  },
   "removed_regions": [],
   "removed_services": []
 }
