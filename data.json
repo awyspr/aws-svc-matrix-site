@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T11:40:14+00:00",
+  "generated": "2026-09-24T11:48:50+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -886,8 +886,10 @@
       "ap-southeast-1",
       "ap-southeast-2",
       "eu-central-1",
+      "eu-north-1",
       "eu-west-1",
       "eu-west-2",
+      "eu-west-3",
       "sa-east-1",
       "us-east-1",
       "us-west-2"
@@ -9715,7 +9717,7 @@
       "launch_date": "2017-03-28",
       "name": "Amazon Connect",
       "slug": "connect",
-      "url": null
+      "url": "https://aws.amazon.com/connect/"
     },
     {
       "category": "Business Applications",
@@ -9836,6 +9838,14 @@
       "name": "Amazon EC2 Auto Scaling",
       "slug": "autoscaling",
       "url": "https://aws.amazon.com/ec2/autoscaling/"
+    },
+    {
+      "category": "Compute",
+      "category_source": "matched",
+      "launch_date": null,
+      "name": "Amazon EC2 Image Builder",
+      "slug": "imagebuilder",
+      "url": "https://aws.amazon.com/image-builder/"
     },
     {
       "category": "Containers",
@@ -10843,7 +10853,7 @@
       "launch_date": "2019-06-11",
       "name": "AWS Application Migration Service (MGN)",
       "slug": "mgn",
-      "url": null
+      "url": "https://aws.amazon.com/application-migration-service/"
     },
     {
       "category": "Front-End Web & Mobile",
@@ -11235,7 +11245,7 @@
       "launch_date": "2019-10-31",
       "name": "AWS Elastic Disaster Recovery (DRS)",
       "slug": "drs",
-      "url": null
+      "url": "https://aws.amazon.com/disaster-recovery/"
     },
     {
       "category": "Media Services",
@@ -12294,14 +12304,6 @@
       "url": null
     },
     {
-      "category": "Compute",
-      "category_source": "matched",
-      "launch_date": null,
-      "name": "EC2 Image Builder",
-      "slug": "imagebuilder",
-      "url": null
-    },
-    {
       "category": "Networking & Content Delivery",
       "category_source": "matched",
       "launch_date": null,
@@ -12593,13 +12595,11 @@
     "AD Connector",
     "AWS AppConfig",
     "AWS Application Auto Scaling",
-    "AWS Application Migration Service",
     "AWS Certificate Manager (ACM)",
     "AWS Client VPN",
     "AWS Cloud WAN",
     "AWS Database Migration Service (AWS DMS)",
     "AWS Directory Service for Microsoft Active Directory",
-    "AWS Elastic Disaster Recovery",
     "AWS End User Messaging",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Interconnect",
@@ -12610,9 +12610,7 @@
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock AgentCore Registry",
-    "Amazon Connect Customer",
     "Amazon Connect Health",
-    "Amazon EC2 Image Builder",
     "Amazon EMR",
     "Amazon Elastic VMware Service (EVS)",
     "Amazon Interactive Video Service (IVS)",
