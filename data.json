@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T11:48:50+00:00",
+  "generated": "2026-09-25T11:53:29+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -9923,9 +9923,9 @@
       "category": "Compute",
       "category_source": "override",
       "launch_date": null,
-      "name": "Amazon Elastic VMware Service",
+      "name": "Amazon Elastic VMware Service (EVS)",
       "slug": "evs",
-      "url": null
+      "url": "https://aws.amazon.com/evs/"
     },
     {
       "category": "Databases",
@@ -10099,16 +10099,16 @@
       "category": "Media Services",
       "category_source": "matched",
       "launch_date": null,
-      "name": "Amazon Interactive Video Service RealTime",
-      "slug": "ivs-realtime",
-      "url": null
+      "name": "Amazon Interactive Video Service (IVS)",
+      "slug": "ivs",
+      "url": "https://aws.amazon.com/ivs/"
     },
     {
       "category": "Media Services",
-      "category_source": "inherited:ivs-realtime",
+      "category_source": "matched",
       "launch_date": null,
-      "name": "Amazon IVS",
-      "slug": "ivs",
+      "name": "Amazon Interactive Video Service RealTime",
+      "slug": "ivs-realtime",
       "url": null
     },
     {
@@ -10226,10 +10226,10 @@
     {
       "category": "Blockchain",
       "category_source": "matched",
-      "launch_date": "2018-11-28",
-      "name": "Amazon Managed Blockchain",
+      "launch_date": null,
+      "name": "Amazon Managed Blockchain (AMB)",
       "slug": "managedblockchain",
-      "url": null
+      "url": "https://aws.amazon.com/managed-blockchain/"
     },
     {
       "category": "Blockchain",
@@ -10266,18 +10266,18 @@
     {
       "category": "Analytics",
       "category_source": "matched",
-      "launch_date": null,
-      "name": "Amazon Managed Streaming for Apache Kafka",
+      "launch_date": "2019-05-30",
+      "name": "Amazon Managed Streaming for Apache Kafka (MSK)",
       "slug": "kafka",
-      "url": null
+      "url": "https://aws.amazon.com/msk/"
     },
     {
       "category": "Application Integration",
       "category_source": "matched",
-      "launch_date": null,
-      "name": "Amazon Managed Workflows for Apache Airflow",
+      "launch_date": "2020-11-24",
+      "name": "Amazon Managed Workflows for Apache Airflow (MWAA)",
       "slug": "mwaa",
-      "url": null
+      "url": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
     },
     {
       "category": "Business Applications",
@@ -10376,14 +10376,6 @@
       "url": null
     },
     {
-      "category": "Business Applications",
-      "category_source": "matched",
-      "launch_date": null,
-      "name": "Amazon Pinpoint and End User Messaging",
-      "slug": "pinpoint-sms-voice-v2",
-      "url": null
-    },
-    {
       "category": "Front-End Web & Mobile",
       "category_source": "matched",
       "launch_date": null,
@@ -10432,20 +10424,12 @@
       "url": "https://aws.amazon.com/q/developer/"
     },
     {
-      "category": "Analytics",
-      "category_source": "matched",
-      "launch_date": "2016-11-15",
-      "name": "Amazon QuickSight",
-      "slug": "quicksight",
-      "url": null
-    },
-    {
-      "category": "Databases",
-      "category_source": "matched",
+      "category": "Unknown",
+      "category_source": null,
       "launch_date": null,
-      "name": "Amazon RDS on VMware",
-      "slug": "rdsvmware",
-      "url": null
+      "name": "Amazon Quick",
+      "slug": "quicksight",
+      "url": "https://aws.amazon.com/quicksuite/"
     },
     {
       "category": "Databases",
@@ -10473,11 +10457,19 @@
     },
     {
       "category": "Databases",
-      "category_source": "inherited:rdsvmware",
+      "category_source": "inherited:rds-data",
       "launch_date": null,
       "name": "Amazon Relational Database Service (RDS)",
       "slug": "rds",
       "url": "https://aws.amazon.com/rds/"
+    },
+    {
+      "category": "Unknown",
+      "category_source": null,
+      "launch_date": null,
+      "name": "Amazon Relational Database Service (RDS) for VMware",
+      "slug": "rdsvmware",
+      "url": null
     },
     {
       "category": "Networking & Content Delivery",
@@ -10970,10 +10962,10 @@
     {
       "category": "Security, Identity, & Compliance",
       "category_source": "matched",
-      "launch_date": "2016-01-21",
-      "name": "AWS Certificate Manager",
+      "launch_date": null,
+      "name": "AWS Certificate Manager (ACM)",
       "slug": "acm",
-      "url": null
+      "url": "https://aws.amazon.com/certificate-manager/"
     },
     {
       "category": "Management & Governance",
@@ -11179,9 +11171,9 @@
       "category": "Migration & Transfer",
       "category_source": "matched",
       "launch_date": null,
-      "name": "AWS Database Migration Service",
+      "name": "AWS Database Migration Service (AWS DMS)",
       "slug": "dms",
-      "url": null
+      "url": "https://aws.amazon.com/dms/"
     },
     {
       "category": "Migration & Transfer",
@@ -11326,6 +11318,14 @@
       "name": "AWS Elemental MediaTailor",
       "slug": "mediatailor",
       "url": "https://aws.amazon.com/mediatailor/"
+    },
+    {
+      "category": "Business Applications",
+      "category_source": "matched",
+      "launch_date": "2024-07-24",
+      "name": "AWS End User Messaging",
+      "slug": "pinpoint-sms-voice-v2",
+      "url": "https://aws.amazon.com/end-user-messaging/amazon-pinpoint-aws-end-user-messaging-landing-page/"
     },
     {
       "category": "Analytics",
@@ -11578,10 +11578,10 @@
     {
       "category": "Security, Identity, & Compliance",
       "category_source": "matched",
-      "launch_date": null,
-      "name": "AWS Key Management Service",
+      "launch_date": "2014-11-12",
+      "name": "AWS Key Management Service (KMS)",
       "slug": "kms",
-      "url": null
+      "url": "https://aws.amazon.com/kms/"
     },
     {
       "category": "Analytics",
@@ -11650,10 +11650,10 @@
     {
       "category": "Management & Governance",
       "category_source": "matched",
-      "launch_date": "2016-12-12",
-      "name": "AWS Managed Services",
+      "launch_date": null,
+      "name": "AWS Managed Services (AMS)",
       "slug": "managedservices",
-      "url": null
+      "url": "https://aws.amazon.com/managed-services/"
     },
     {
       "category": "Customer Enablement",
@@ -12306,10 +12306,10 @@
     {
       "category": "Networking & Content Delivery",
       "category_source": "matched",
-      "launch_date": null,
-      "name": "Elastic Load Balancing",
+      "launch_date": "2009-05-17",
+      "name": "Elastic Load Balancing (ELB)",
       "slug": "elb",
-      "url": null
+      "url": "https://aws.amazon.com/elasticloadbalancing/"
     },
     {
       "category": "Internet of Things",
@@ -12595,16 +12595,11 @@
     "AD Connector",
     "AWS AppConfig",
     "AWS Application Auto Scaling",
-    "AWS Certificate Manager (ACM)",
     "AWS Client VPN",
     "AWS Cloud WAN",
-    "AWS Database Migration Service (AWS DMS)",
     "AWS Directory Service for Microsoft Active Directory",
-    "AWS End User Messaging",
     "AWS Identity and Access Management (IAM) Access Analyzer",
     "AWS Interconnect",
-    "AWS Key Management Service (KMS)",
-    "AWS Managed Services (AMS)",
     "AWS Security Token Service (STS)",
     "AWS Shield Advanced",
     "Amazon Aurora MySQL",
@@ -12612,12 +12607,6 @@
     "Amazon Bedrock AgentCore Registry",
     "Amazon Connect Health",
     "Amazon EMR",
-    "Amazon Elastic VMware Service (EVS)",
-    "Amazon Interactive Video Service (IVS)",
-    "Amazon Managed Blockchain (AMB)",
-    "Amazon Managed Streaming for Apache Kafka (MSK)",
-    "Amazon Managed Workflows for Apache Airflow (MWAA)",
-    "Amazon Quick",
     "Amazon RDS Custom for Oracle",
     "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
@@ -12630,7 +12619,7 @@
     "Amazon Route 53 Public DNS",
     "Amazon S3 on Outposts",
     "Amazon SageMaker Ground Truth",
-    "Elastic Load Balancing (ELB)",
+    "Kiro",
     "NAT Gateway",
     "Oracle Database@AWS",
     "Route 53 Resolver Endpoints",

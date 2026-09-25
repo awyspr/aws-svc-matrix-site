@@ -1,31 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "eu-north-1",
-      "service": "aws-devops-agent"
-    },
-    {
-      "region": "eu-west-3",
-      "service": "aws-devops-agent"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-09-24T11:48:50+00:00",
-  "new_snapshot": "2026-09-24.json",
-  "old_generated": "2026-09-23T11:40:14+00:00",
-  "prior_snapshot": "2026-09-23.json",
-  "region_rollup": {
-    "eu-north-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-3": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-09-25T11:53:29+00:00",
+  "new_snapshot": "2026-09-25.json",
+  "old_generated": "2026-09-24T11:48:50+00:00",
+  "prior_snapshot": "2026-09-24.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
