@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T12:56:08+00:00",
+  "generated": "2026-09-30T12:37:33+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -1102,6 +1102,7 @@
     "bedrock-data-automation": [
       "ap-northeast-1",
       "ap-south-1",
+      "ap-southeast-1",
       "ap-southeast-2",
       "ca-central-1",
       "eu-central-1",
