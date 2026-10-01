@@ -1,23 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "ap-southeast-1",
-      "service": "bedrock-data-automation"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-09-30T12:37:33+00:00",
-  "new_snapshot": "2026-09-30.json",
-  "old_generated": "2026-09-29T12:56:08+00:00",
-  "prior_snapshot": "2026-09-29.json",
-  "region_rollup": {
-    "ap-southeast-1": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-10-01T13:19:23+00:00",
+  "new_snapshot": "2026-10-01.json",
+  "old_generated": "2026-09-30T12:37:33+00:00",
+  "prior_snapshot": "2026-09-30.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
