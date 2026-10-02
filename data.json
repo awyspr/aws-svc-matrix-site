@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T13:19:23+00:00",
+  "generated": "2026-10-02T12:38:33+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -8986,6 +8986,11 @@
       "us-west-1",
       "us-west-2"
     ],
+    "wellarchitectedagent": [
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
     "wellarchitectedtool": [
       "ap-east-1",
       "ap-northeast-1",
@@ -9918,7 +9923,7 @@
       "launch_date": null,
       "name": "Amazon Elastic MapReduce (EMR)",
       "slug": "emr",
-      "url": null
+      "url": "https://aws.amazon.com/emr/"
     },
     {
       "category": "Compute",
@@ -12195,6 +12200,14 @@
     {
       "category": "Architecture Strategy",
       "category_source": "matched",
+      "launch_date": null,
+      "name": "AWS Well-Architected Agent",
+      "slug": "wellarchitectedagent",
+      "url": null
+    },
+    {
+      "category": "Architecture Strategy",
+      "category_source": "matched",
       "launch_date": "2018-11-29",
       "name": "AWS Well-Architected Tool",
       "slug": "wellarchitectedtool",
@@ -12607,7 +12620,6 @@
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock AgentCore Registry",
     "Amazon Connect Health",
-    "Amazon EMR",
     "Amazon RDS Custom for Oracle",
     "Amazon RDS Custom for SQL Server",
     "Amazon RDS for Db2",
