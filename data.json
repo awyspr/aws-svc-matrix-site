@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T12:38:33+00:00",
+  "generated": "2026-10-03T11:42:20+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -5711,6 +5711,9 @@
       "us-west-1",
       "us-west-2"
     ],
+    "network-security-manager": [
+      "us-east-1"
+    ],
     "networkflowmonitor": [
       "ap-northeast-1",
       "ap-northeast-2",
@@ -6175,6 +6178,7 @@
       "ap-southeast-2",
       "ap-southeast-3",
       "ap-southeast-4",
+      "ap-southeast-5",
       "ap-southeast-6",
       "eu-central-1",
       "eu-north-1",
@@ -7556,6 +7560,10 @@
       "us-west-2"
     ],
     "securityagent": [
+      "ap-northeast-2",
+      "ca-central-1",
+      "eu-north-1",
+      "eu-west-2",
       "us-east-1",
       "us-west-2"
     ],
@@ -11732,6 +11740,14 @@
       "name": "AWS Network Firewall",
       "slug": "network-firewall",
       "url": "https://aws.amazon.com/network-firewall/"
+    },
+    {
+      "category": "Unknown",
+      "category_source": null,
+      "launch_date": null,
+      "name": "AWS Network Security Manager Customer API",
+      "slug": "network-security-manager",
+      "url": null
     },
     {
       "category": "Management & Governance",

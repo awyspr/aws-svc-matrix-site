@@ -1,37 +1,61 @@
 {
   "added_regions": [],
   "added_services": [
-    "wellarchitectedagent"
+    "network-security-manager"
   ],
   "cell_added": [
     {
       "region": "us-east-1",
-      "service": "wellarchitectedagent"
+      "service": "network-security-manager"
     },
     {
-      "region": "us-east-2",
-      "service": "wellarchitectedagent"
+      "region": "ap-southeast-5",
+      "service": "pcs"
     },
     {
-      "region": "us-west-2",
-      "service": "wellarchitectedagent"
+      "region": "ap-northeast-2",
+      "service": "securityagent"
+    },
+    {
+      "region": "ca-central-1",
+      "service": "securityagent"
+    },
+    {
+      "region": "eu-north-1",
+      "service": "securityagent"
+    },
+    {
+      "region": "eu-west-2",
+      "service": "securityagent"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-10-02T12:38:33+00:00",
-  "new_snapshot": "2026-10-02.json",
-  "old_generated": "2026-10-01T13:19:23+00:00",
-  "prior_snapshot": "2026-10-01.json",
+  "new_generated": "2026-10-03T11:42:20+00:00",
+  "new_snapshot": "2026-10-03.json",
+  "old_generated": "2026-10-02T12:38:33+00:00",
+  "prior_snapshot": "2026-10-02.json",
   "region_rollup": {
+    "ap-northeast-2": {
+      "added": 1,
+      "removed": 0
+    },
+    "ap-southeast-5": {
+      "added": 1,
+      "removed": 0
+    },
+    "ca-central-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-north-1": {
+      "added": 1,
+      "removed": 0
+    },
+    "eu-west-2": {
+      "added": 1,
+      "removed": 0
+    },
     "us-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-west-2": {
       "added": 1,
       "removed": 0
     }
