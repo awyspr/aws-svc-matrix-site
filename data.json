@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T13:20:34+00:00",
+  "generated": "2026-10-10T12:35:02+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -3212,6 +3212,37 @@
       "us-west-1",
       "us-west-2"
     ],
+    "endusermessaging": [
+      "af-south-1",
+      "ap-east-2",
+      "ap-northeast-1",
+      "ap-northeast-2",
+      "ap-northeast-3",
+      "ap-south-1",
+      "ap-south-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "ap-southeast-3",
+      "ap-southeast-4",
+      "ap-southeast-6",
+      "ca-central-1",
+      "ca-west-1",
+      "eu-central-1",
+      "eu-central-2",
+      "eu-north-1",
+      "eu-south-1",
+      "eu-south-2",
+      "eu-west-1",
+      "eu-west-2",
+      "eu-west-3",
+      "il-central-1",
+      "mx-central-1",
+      "sa-east-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
     "entityresolution": [
       "af-south-1",
       "ap-northeast-1",
@@ -5915,18 +5946,22 @@
       "ap-northeast-3",
       "ap-south-1",
       "ap-south-2",
+      "ap-southeast-1",
       "ap-southeast-2",
       "ap-southeast-4",
       "ca-central-1",
       "eu-central-1",
       "eu-central-2",
+      "eu-north-1",
       "eu-south-1",
       "eu-south-2",
       "eu-west-1",
       "eu-west-2",
+      "eu-west-3",
       "sa-east-1",
       "us-east-1",
       "us-east-2",
+      "us-west-1",
       "us-west-2"
     ],
     "omics": [
@@ -11371,6 +11406,14 @@
       "category_source": "matched",
       "launch_date": "2024-07-24",
       "name": "AWS End User Messaging",
+      "slug": "endusermessaging",
+      "url": "https://aws.amazon.com/end-user-messaging/amazon-pinpoint-aws-end-user-messaging-landing-page/"
+    },
+    {
+      "category": "Business Applications",
+      "category_source": "matched",
+      "launch_date": "2024-07-24",
+      "name": "AWS End User Messaging",
       "slug": "pinpoint-sms-voice-v2",
       "url": "https://aws.amazon.com/end-user-messaging/amazon-pinpoint-aws-end-user-messaging-landing-page/"
     },
@@ -12041,8 +12084,8 @@
     {
       "category": "Security, Identity, & Compliance",
       "category_source": "matched",
-      "launch_date": "2016-12-01",
-      "name": "AWS Shield",
+      "launch_date": null,
+      "name": "AWS Shield Advanced",
       "slug": "shield",
       "url": "https://aws.amazon.com/shield/"
     },
@@ -12673,7 +12716,7 @@
     "AWS Interconnect",
     "AWS Network Security Manager",
     "AWS Security Token Service (STS)",
-    "AWS Shield Advanced",
+    "AWS Shield",
     "Amazon Aurora MySQL",
     "Amazon Aurora PostgreSQL",
     "Amazon Bedrock AgentCore Registry",
