@@ -15,9 +15,16 @@
 
   const addedCell = new Set(), removedCell = new Set();
   const regionRollup = {}; // code -> {added, removed}
+  const serviceRollup = {}; // slug -> {added, removed}
   if (changes) {
-    for (const c of changes.cell_added || []) addedCell.add(`${c.service}|${c.region}`);
-    for (const c of changes.cell_removed || []) removedCell.add(`${c.service}|${c.region}`);
+    for (const c of changes.cell_added || []) {
+      addedCell.add(`${c.service}|${c.region}`);
+      (serviceRollup[c.service] ||= { added: 0, removed: 0 }).added++;
+    }
+    for (const c of changes.cell_removed || []) {
+      removedCell.add(`${c.service}|${c.region}`);
+      (serviceRollup[c.service] ||= { added: 0, removed: 0 }).removed++;
+    }
     Object.assign(regionRollup, changes.region_rollup || {});
   }
 
@@ -95,7 +102,12 @@
     }
     parts.push('</tr></thead><tbody>');
     for (const s of services) {
-      parts.push(`<tr><th title="${s.slug}"><div class="svc-name">${s.name}</div><div class="cat-tag">${s.category}</div></th>`);
+      const sr = serviceRollup[s.slug];
+      let svcBadge = '';
+      if (sr && (sr.added || sr.removed)) {
+        svcBadge = ` <span class="rollup" title="since ${changes.prior_snapshot}">+${sr.added || 0}/-${sr.removed || 0}</span>`;
+      }
+      parts.push(`<tr><th title="${s.slug}"><div class="svc-name">${s.name}${svcBadge}</div><div class="cat-tag">${s.category}</div></th>`);
       const set = matrixSet[s.slug] || new Set();
       for (const r of regions) {
         const key = `${s.slug}|${r.code}`;
