@@ -1,23 +1,13 @@
 {
   "added_regions": [],
   "added_services": [],
-  "cell_added": [
-    {
-      "region": "eu-central-2",
-      "service": "textract"
-    }
-  ],
+  "cell_added": [],
   "cell_removed": [],
-  "new_generated": "2026-10-13T14:14:45+00:00",
-  "new_snapshot": "2026-10-13.json",
-  "old_generated": "2026-10-12T15:29:32+00:00",
-  "prior_snapshot": "2026-10-12.json",
-  "region_rollup": {
-    "eu-central-2": {
-      "added": 1,
-      "removed": 0
-    }
-  },
+  "new_generated": "2026-10-14T11:55:48+00:00",
+  "new_snapshot": "2026-10-14.json",
+  "old_generated": "2026-10-13T14:14:45+00:00",
+  "prior_snapshot": "2026-10-13.json",
+  "region_rollup": {},
   "removed_regions": [],
   "removed_services": []
 }
