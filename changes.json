@@ -57,16 +57,16 @@
       "service": "network-security-manager"
     },
     {
-      "region": "us-east-1",
-      "service": "account-access"
-    },
-    {
       "region": "eu-south-1",
       "service": "interconnect"
+    },
+    {
+      "region": "us-east-1",
+      "service": "account-access"
     }
   ],
   "cell_removed": [],
-  "new_generated": "2026-10-16T07:14:18+00:00",
+  "new_generated": "2026-10-16T11:27:21+00:00",
   "new_snapshot": "2026-10-16.json",
   "old_generated": "2026-10-15T11:32:29+00:00",
   "prior_snapshot": "2026-10-15.json",
