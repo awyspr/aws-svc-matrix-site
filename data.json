@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T11:32:29+00:00",
+  "generated": "2026-10-16T07:14:18+00:00",
   "matrix": {
     "AmazonGameLiftStreams": [
       "ap-northeast-1",
@@ -74,6 +74,7 @@
     ],
     "account-access": [
       "ap-southeast-1",
+      "us-east-1",
       "us-west-1"
     ],
     "acm": [
@@ -4226,6 +4227,9 @@
       "us-west-1",
       "us-west-2"
     ],
+    "interconnect": [
+      "eu-south-1"
+    ],
     "internetmonitor": [
       "af-south-1",
       "ap-east-1",
@@ -5743,7 +5747,20 @@
       "us-west-2"
     ],
     "network-security-manager": [
-      "us-east-1"
+      "ap-east-1",
+      "ap-northeast-1",
+      "ap-south-1",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "ap-southeast-5",
+      "ap-southeast-7",
+      "eu-central-1",
+      "eu-north-1",
+      "eu-south-2",
+      "eu-west-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
     ],
     "networkflowmonitor": [
       "ap-northeast-1",
@@ -12423,6 +12440,14 @@
       "launch_date": null,
       "name": "Inspector Scan",
       "slug": "inspector-scan",
+      "url": null
+    },
+    {
+      "category": "Unknown",
+      "category_source": null,
+      "launch_date": null,
+      "name": "Interconnect",
+      "slug": "interconnect",
       "url": null
     },
     {
