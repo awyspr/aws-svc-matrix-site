@@ -1,135 +1,38 @@
 {
   "added_regions": [],
-  "added_services": [
-    "interconnect"
-  ],
+  "added_services": [],
   "cell_added": [
     {
-      "region": "ap-east-1",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "ap-northeast-1",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "ap-south-1",
-      "service": "network-security-manager"
-    },
+      "region": "ap-south-2",
+      "service": "pcs"
+    }
+  ],
+  "cell_removed": [
     {
       "region": "ap-southeast-1",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "ap-southeast-2",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "ap-southeast-5",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "ap-southeast-7",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "eu-central-1",
-      "service": "network-security-manager"
+      "service": "timestream"
     },
     {
       "region": "eu-north-1",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "eu-south-2",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "eu-west-1",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "us-east-2",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "us-west-2",
-      "service": "network-security-manager"
-    },
-    {
-      "region": "eu-south-1",
-      "service": "interconnect"
-    },
-    {
-      "region": "us-east-1",
-      "service": "account-access"
+      "service": "timestream"
     }
   ],
-  "cell_removed": [],
-  "new_generated": "2026-10-16T11:27:21+00:00",
-  "new_snapshot": "2026-10-16.json",
-  "old_generated": "2026-10-15T11:32:29+00:00",
-  "prior_snapshot": "2026-10-15.json",
+  "new_generated": "2026-10-17T10:47:21+00:00",
+  "new_snapshot": "2026-10-17.json",
+  "old_generated": "2026-10-16T11:27:21+00:00",
+  "prior_snapshot": "2026-10-16.json",
   "region_rollup": {
-    "ap-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-northeast-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-south-1": {
+    "ap-south-2": {
       "added": 1,
       "removed": 0
     },
     "ap-southeast-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-5": {
-      "added": 1,
-      "removed": 0
-    },
-    "ap-southeast-7": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-central-1": {
-      "added": 1,
-      "removed": 0
+      "added": 0,
+      "removed": 1
     },
     "eu-north-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-south-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-south-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "eu-west-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-1": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-east-2": {
-      "added": 1,
-      "removed": 0
-    },
-    "us-west-2": {
-      "added": 1,
-      "removed": 0
+      "added": 0,
+      "removed": 1
     }
   },
   "removed_regions": [],
